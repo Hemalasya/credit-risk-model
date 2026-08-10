@@ -69,3 +69,6 @@ X_val_clean.to_csv('data/X_val_clean.csv')
 y_train.to_csv('data/y_train.csv')
 y_val.to_csv('data/y_val.csv')
 print("\nSaved cleaned splits to data/")
+import joblib
+joblib.dump(fit_values, 'data/fit_values.joblib')
+print("Saved fit_values to data/fit_values.joblib")
