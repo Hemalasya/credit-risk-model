@@ -1,4 +1,4 @@
-# Credit Risk Prediction Model
+content = '''# Credit Risk Prediction Model
 
 Predicting loan applicant default risk using the "Give Me Some Credit" dataset (150,000 applicants), with a focus on cost-aware decision-making rather than raw accuracy.
 
@@ -69,3 +69,9 @@ python src/threshold_tuning.py
 python src/train_lightgbm.py
 python src/threshold_tuning_lgbm.py
 python src/save_logistic.py
+'''
+
+with open('README.md', 'w', encoding='utf-8', newline='\n') as f:
+    f.write(content)
+
+print("README.md rewritten cleanly, no escape characters")
