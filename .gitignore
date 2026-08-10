@@ -1,0 +1,7 @@
+venv/
+data/raw/*.csv
+data/raw/*.xls
+data/*.csv
+data/*.joblib
+__pycache__/
+*.pyc
